@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*--------------------/Top Section------------------------*/
+
+#topSection {
+    height: 1050px;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('../images/backgrounds/h_img.jpg');
+}
+
+#topSection #image1 {
+    margin-left: 47%;
+    margin-top: 320px
+}
+
+#topSection #image2 {
+    margin-top: 270px;
+}
+
+#topSection .contents {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#topSection .contents h1 {
+    font-size: 50px;
+    color: #FEFAFF;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/*--------------------/Top Section------------------------*/
