@@ -40,3 +40,20 @@ html {
 
 
 /*--------------------/Top Section------------------------*/
+
+/*--------------------About------------------------*/
+
+.about {
+    text-align: center;
+    line-height: 40px;
+    font-size: 22px;
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/*--------------------/About------------------------*/
