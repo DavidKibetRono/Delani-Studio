@@ -114,5 +114,37 @@ $(document).ready(function(){
             $("#fadeImage8").hide();
         }
     })
-    
+     //user message feedback from the form
+     $("#forms").on('keypress', (e) => {
+
+        if (e.which == 13) {
+
+            e.preventDefault();
+            var name = $("#name").val();
+            var email = $("#email").val();
+            var message = $("#message").val();
+            if (name == "") {
+
+                alert("Name field cannot be empty")
+
+            } else if (email == "") {
+
+                alert("Email field cannot be empty")
+
+            } else if (message == "") {
+
+                alert("message textarea field cannot be empty")
+
+            } else {
+
+                alert(`${name} we have received your message. Thank you for reaching out to us.`)
+                $('#forms').submit();
+                $("#name").val("");
+                $("#email").val("");
+                $("#message").val("");
+
+            }
+        }
+
+    })
 })
