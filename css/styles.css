@@ -273,3 +273,33 @@ input::placeholder {
 
 
 /*--------------------/footer------------------------*/
+
+
+/*-------classes from javaScript------ */
+
+.projectDesign {
+    text-align: center;
+    margin-left: 200px;
+}
+
+.projectDevelopment {
+    margin-left: 200px;
+    text-align: center;
+}
+
+.projectProduct {
+    text-align: center;
+    margin-left: 250px;
+    /* color: red; */
+}
+
+.mySpan {
+    font-weight: bold;
+    /* text-align: center; */
+    margin-left: -20px;
+}
+
+.newContainer {
+    margin-top: 90px;
+}
+
