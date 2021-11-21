@@ -57,3 +57,21 @@ html {
 
 
 /*--------------------/About------------------------*/
+/*--------------------Services------------------------*/
+
+.services {
+    margin-top: 50px;
+    height: 400px;
+    background-image: url("../images/backgrounds/s_image.jpg");
+}
+
+.services #text {
+    padding-top: 80px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/*--------------------/Services------------------------*/
