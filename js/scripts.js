@@ -44,6 +44,10 @@ $(document).ready(function() {
             $("#fadeImage4").hide();
         }
     })
+     
+    $("#fadeImage4").hover(function(){
+        $("#fadeImage4").toggle()
+    })
 
     //work3
     $("#work3").on({
@@ -53,6 +57,9 @@ $(document).ready(function() {
         mouseout: function() {
             $("#fadeImage3").hide();
         }
+    })
+    $("#fadeImage3").hover(function(){
+        $("#fadeImage3").toggle()
     })
 
     //work2
@@ -64,6 +71,9 @@ $(document).ready(function() {
             $("#fadeImage2").hide();
         }
     })
+    $("#fadeImage2").hover(function(){
+        $("#fadeImage2").toggle()
+    })
 
     //work1
     $("#work1").on({
@@ -73,6 +83,9 @@ $(document).ready(function() {
         mouseout: function() {
             $("#fadeImage1").hide();
         }
+    })
+    $("#fadeImage1").hover(function(){
+        $("#fadeImage1").toggle()
     })
 
     //work5
@@ -84,6 +97,9 @@ $(document).ready(function() {
             $("#fadeImage5").hide();
         }
     })
+    $("#fadeImage5").hover(function(){
+        $("#fadeImage5").toggle()
+    })
 
     //work6
     $("#work6").on({
@@ -93,6 +109,9 @@ $(document).ready(function() {
         mouseout: function() {
             $("#fadeImage6").hide();
         }
+    })
+    $("#fadeImage6").hover(function(){
+        $("#fadeImage6").toggle()
     })
 
     //work7
@@ -104,6 +123,9 @@ $(document).ready(function() {
             $("#fadeImage7").hide();
         }
     })
+    $("#fadeImage7").hover(function(){
+        $("#fadeImage7").toggle()
+    })
 
     //work8
     $("#work8").on({
@@ -114,6 +136,10 @@ $(document).ready(function() {
                 $("#fadeImage8").hide();
             }
         })
+        $("#fadeImage8").hover(function(){
+            $("#fadeImage8").toggle()
+        })
+
         //user message feedback from the form
     $("#forms").on('keypress', (e) => {
 
