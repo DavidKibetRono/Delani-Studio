@@ -6,13 +6,15 @@ html {
     scroll-behavior: smooth;
 }
 
+body{
+    font-family: 'Courgette', cursive;
+}
 
 /*--------------------/Top Section------------------------*/
 
 #topSection {
     height: 1050px;
     margin-top: 10px;
-    font-family: 'Times New Roman', Times, serif;
     background-image: url('../images/backgrounds/h_img.jpg');
 }
 
@@ -29,13 +31,11 @@ html {
     color: #ffffff;
     text-align: center;
     margin-top: 100px;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 #topSection .contents h1 {
     font-size: 50px;
     color: #FEFAFF;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -49,11 +49,6 @@ html {
     line-height: 40px;
     font-size: 22px;
     margin-top: 50px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.about h1 {
-    font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -73,7 +68,6 @@ html {
     color: white;
     font-size: 25px;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -90,13 +84,11 @@ html {
 .what-we-do h1 {
     font-weight: bold;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 .container h1 {
     text-align: center;
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 .what-we-do .row {
@@ -109,7 +101,6 @@ html {
     padding-top: 50px;
     font-weight: bold;
     text-decoration: none;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 .what-we-do .row .column span {
@@ -158,7 +149,6 @@ html {
 .container h1 {
     text-align: center;
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 .container .row .column img {
