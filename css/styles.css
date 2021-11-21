@@ -238,3 +238,16 @@ input::placeholder {
 
 
 /*--------------------/Contact Me------------------------*/
+/*--------------------Social Icons------------------------*/
+
+.social-icons {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.social-icons img {
+    margin-left: 20px;
+}
+
+
+/*--------------------/Social Icons------------------------*/
