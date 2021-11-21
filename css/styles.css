@@ -182,3 +182,59 @@ html {
 }
 
 /*--------------------/Portfolio------------------------*/
+
+/*--------------------Contact Me------------------------*/
+
+#contact-me {
+    margin-top: 50px;
+    height: 500px;
+    background-image: url('../images/backgrounds/c_image.jpg');
+}
+
+#contact-me h1 {
+    text-align: center;
+}
+
+#contact-me h1 {
+    color: #ffffff;
+}
+
+.myForm {
+    text-align: center;
+}
+
+input {
+    color: white;
+}
+
+input[type="text"],
+[type="email"] {
+    background: transparent;
+    height: 30px;
+    width: 30%;
+    margin-right: 15px;
+    border: 1px solid #ffffff;
+}
+
+textarea {
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+input::placeholder {
+    padding-left: 15px;
+    color: #ffffff;
+}
+
+#message {
+    margin-top: 20px;
+}
+
+#message::placeholder {
+    padding-left: 15px;
+    color: #ffffff;
+}
+
+
+/*--------------------/Contact Me------------------------*/
