@@ -75,3 +75,54 @@ html {
 
 
 /*--------------------/Services------------------------*/
+
+/*--------------------What-we-do------------------------*/
+
+.what-we-do {
+    height: 250px;
+    margin-top: 50px;
+}
+
+.what-we-do h1 {
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.what-we-do .row {
+    margin-top: 50px;
+}
+
+.what-we-do .row .column a {
+    color: black;
+    margin-left: 300px;
+    padding-top: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.what-we-do .row .column span {
+    margin-left: 300px;
+}
+
+#design {
+    display: none;
+}
+
+#development {
+    display: none;
+}
+
+#product-management {
+    display: none;
+}
+
+
+/*--------------------/What-we-do------------------------*/
