@@ -112,14 +112,19 @@ body{
 
 #design {
     display: none;
+    font-size: 17px;
 }
 
 #development {
     display: none;
+    font-size: 17px;
+    
 }
 
 #product-management {
     display: none;
+    font-size: 17px;
+    
 }
 
 #mydesign {
