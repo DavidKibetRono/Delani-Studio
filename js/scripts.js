@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function() {
 
     $("#mydesign").on("click", (e) => {
         e.preventDefault()
@@ -107,15 +107,15 @@ $(document).ready(function(){
 
     //work8
     $("#work8").on({
-        mouseover: function() {
-            $("#fadeImage8").show();
-        },
-        mouseout: function() {
-            $("#fadeImage8").hide();
-        }
-    })
-     //user message feedback from the form
-     $("#forms").on('keypress', (e) => {
+            mouseover: function() {
+                $("#fadeImage8").show();
+            },
+            mouseout: function() {
+                $("#fadeImage8").hide();
+            }
+        })
+        //user message feedback from the form
+    $("#forms").on('keypress', (e) => {
 
         if (e.which == 13) {
 
