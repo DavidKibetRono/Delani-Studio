@@ -340,7 +340,7 @@ input::placeholder {
     }
 }
 
-@media only screen and (max-width:768px)and (min-width:426px) {
+@media only screen and (max-width:768px) and (min-width:426px) {
 
     #fadeImage1,#fadeImage2,#fadeImage3,#fadeImage4,#fadeImage5,#fadeImage6,#fadeImage7,#fadeImage8{
         position: absolute;
@@ -353,7 +353,7 @@ input::placeholder {
         background-color: white;
        
     }
-    
+
     #message {
         width: 63%;
         height: 250px;
