@@ -306,6 +306,18 @@ input::placeholder {
 /* --------------media queries------------ */
 
 @media only screen and (max-width:425px) {
+
+    #fadeImage1,#fadeImage2,#fadeImage3,#fadeImage4,#fadeImage5,#fadeImage6,#fadeImage7,#fadeImage8{
+        position: absolute;
+        top: 23%;
+        color: black;
+        font-size: 15px;
+        left: 20%;
+        opacity: 0.4;
+        padding: 3px;
+        background-color: white;
+       
+    }
     #topSection #image2 {
         margin-top:190px;
     }
@@ -329,6 +341,19 @@ input::placeholder {
 }
 
 @media only screen and (max-width:768px)and (min-width:426px) {
+
+    #fadeImage1,#fadeImage2,#fadeImage3,#fadeImage4,#fadeImage5,#fadeImage6,#fadeImage7,#fadeImage8{
+        position: absolute;
+        top: 15%;
+        color: black;
+        font-size: 15px;
+        left: 10%;
+        opacity: 0.4;
+        padding: 40px 90px 40px 60px;
+        background-color: white;
+       
+    }
+    
     #message {
         width: 63%;
         height: 250px;
